@@ -1,0 +1,149 @@
+
+@media screen and (min-width: 700px){
+    #content .box{
+        position: relative;
+        margin-top: 10px;
+        width: 850px;
+        height: auto;
+        background-color: #dddddd;
+    }
+    .leftbox{
+        float: left;
+        width: 400px;
+        height: auto;
+    }
+    .rightbox{
+        float: right;
+        width: 400px;
+        height: auto;
+    }
+    .searchbox{
+        width: 400px;
+        height: 40px;
+    }
+    .searchval{
+        width: 300px;
+        height: 36px;
+    }
+
+    .searchbtn{
+        width: 80px;
+        height: 38px;
+    }
+    .search_result{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+    .search_line{
+        width: 400px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .form_title{
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+        background-color: #aaaaaa;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .form_list{
+        margin-top: 5px;
+        width: 400px;
+        height: auto;
+    }
+    .form_h{
+        background-color: #cccccc;
+    }
+    .form_line{
+        width: 400px;
+        height: 30px;
+    }
+    .item{
+        width: 130px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    #content .box{
+        margin-top: 1vw;
+        width: 100vw;
+        height: auto;
+        background-color: #dddddd;
+    }
+
+    .leftbox{
+        float: left;
+        width: 50vw;
+        height: auto;
+    }
+    .rightbox{
+        float: right;
+        width: 50vw;
+        height: auto;
+    }
+    .searchbox{
+        width: 50vw;
+        height: 5vw;
+    }
+    .searchval{
+        width: 35vw;
+        height: 4vw;
+    }
+
+    .searchbtn{
+        width: 12vw;
+        height: 5vw;
+    }
+
+    .search_result{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+    .search_line{
+        width: 50vw;
+        height: 4vw;
+        font-size: 1.3vw;
+        line-height: 4vw;
+    }
+
+    .form_title{
+        width: 20vw;
+        height: 5vw;
+        font-size: 1.8vw;
+        line-height: 5vw;
+        background-color: #aaaaaa;
+        margin-left: 15vw;
+        text-align: center;
+    }
+
+    .form_list{
+        margin-top: 1vw;
+        width: 50vw;
+        height: auto;
+    }
+
+    .form_h{
+        background-color: #cccccc;
+    }
+    .form_line{
+        width: 50vw;
+        height: 4vw;
+    }
+    .item{
+        width: 16vw;
+        height: 4vw;
+        text-align: center;
+        line-height: 4vw;
+        font-size: 1.3vw;
+    }
+    
+}

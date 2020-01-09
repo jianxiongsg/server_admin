@@ -1,0 +1,123 @@
+
+@media screen and (min-width: 700px){
+    #content .box{
+        margin-top: 10px;
+        width: 400px;
+        height: auto;
+        height: 500px;
+        background-color: #dddddd;
+    }
+    .line{
+        width: 400px;
+        height: 30px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .way_name{
+        width: 100px;
+        height: 30px;
+        background-color: #aaaaaa;
+        text-align: center;
+        line-height: 30px;
+    }
+    #loginWay{
+        width: 290px;
+        height: 28px;
+        font-size: 16px;
+    }
+    .way_title{
+        width: 400px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .line_name{
+        width: 100px;
+        height: 30px;
+        background-color: #bbbbbb;
+        text-align: center;
+        line-height: 30px;
+    }
+    .line_value{
+        width: 290px;
+        height: 28px;
+        font-size: 16px;
+    }
+    .button{
+        margin-top: 5px;
+        margin-left: 150px;
+        width: 100px;
+        height: 30px;
+        background-color: #cccccc;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .line_file{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 700px){
+    #content .box{
+        margin-top: 1vw;
+        width: 60vw;
+        height: auto;
+        height: 500px;
+        background-color: #dddddd;
+    }
+    .line{
+        width: 50vw;
+        height: 4vw;
+        margin-top: 1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .way_name{
+        min-width: 15vw;
+        height: 4vw;
+        background-color: #aaaaaa;
+        text-align: center;
+        line-height: 4vw;
+    }
+    #loginWay{
+        width: 30vw;
+        height: 4vw;
+        font-size: 1.2vw;
+    }
+    .way_title{
+        min-width: 40vw;
+        height: 5vw;
+        margin-top: 2vw;
+    }
+
+    .line_name{
+        min-width: 15vw;
+        height: 4vw;
+        background-color: #bbbbbb;
+        text-align: center;
+        line-height: 4vw;
+    }
+    .line_value{
+        width: 30vw;
+        height: 4vw;
+        font-size: 1.2vw;
+    }
+    .button{
+        margin-top: 1vw;
+        margin-left: 20vw;
+        width: 10vw;
+        height: 4vw;
+        background-color: #cccccc;
+        text-align: center;
+        line-height: 4vw;
+        font-size: 1.2vw;
+    }
+    .line_file{
+        font-size: 2.3vw;
+    }
+}

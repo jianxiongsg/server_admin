@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/common.css' />
+    <link rel='stylesheet' href='/stylesheets/storehouse.css' />
+  </head>
+  <body>
+    <div id="head_nav">
+      <div class="nav_ul">
+        <input class="nav_li" type="button" value="服务器页面"/>
+        <input class="nav_li" type="button" value="登录方式管理页面"/>
+        <input class="nav_li" type="button" value="app页面"/>
+        <input class="nav_li" type="button" value="仓库页面"/>
+      </div>
+    </div>
+    <div id="body" class="flex_column_center_center">
+      <div class="title_box flex_row_center_center">
+        <div class="title"><%=title%></div>
+      </div>
+      
+      <div id="content" class="flex_column_center_center">
+        <div class="box">
+          <div class="leftbox">
+            <div class="searchbox flex_row_between_center">
+                <input class="searchval" id="searchval" type="text" value="" />
+                <input class="searchbtn" type="button" value="搜索">
+            </div>
+            <div class="search_result">
+                <div class="search_line">aaaa</div>
+                <div class="search_line">bbbb</div>
+            </div>
+          </div>
+          <div class="rightbox">
+            <div class="form_title">仓库名称</div>
+            <div class="form_list">
+                <div class="form_h form_line flex_row_center_center">
+                    <div class="item">版本号</div>
+                    <div class="item">版本名称</div>
+                    <div class="item">上传日期</div>
+                </div>
+                <div class="form_line flex_row_center_center">
+                    <div class="item">111</div>
+                    <div class="item">111</div>
+                    <div class="item">111</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

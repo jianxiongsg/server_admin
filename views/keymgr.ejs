@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/common.css' />
+    <link rel='stylesheet' href='/stylesheets/keymgr.css' />
+  </head>
+  <body>
+    <div id="head_nav">
+      <div class="nav_ul">
+        <input class="nav_li" type="button" value="服务器页面"/>
+        <input class="nav_li" type="button" value="登录方式管理页面"/>
+        <input class="nav_li" type="button" value="app页面"/>
+        <input class="nav_li" type="button" value="仓库页面"/>
+      </div>
+    </div>
+    <div id="body" class="flex_column_center_center">
+      <div class="title_box flex_row_center_center">
+        <div class="title"><%=title%></div>
+      </div>
+      
+      <div id="content" class="flex_column_center_center">
+        <div class="box">
+            <div class="line">
+                <div class="line_name">密钥名称</div>
+                <input class="line_value" type="text" value="" />
+            </div>
+            <div class="line">
+                <div class="line_name">公钥内容</div>
+                <input class="line_value" type="text" value="" />
+            </div>
+            <div class="line">
+                <div class="line_name">私钥内容</div>
+                <input class="line_value" type="text" value="" />
+            </div>
+            <input class="surebtn" type="button" value="添加密钥" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

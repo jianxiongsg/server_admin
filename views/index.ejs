@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/common.css' />
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+  </head>
+  <body>
+    <div id="head_nav">
+      <div class="nav_ul">
+        <input class="nav_li" type="button" value="服务器页面"/>
+        <input class="nav_li" type="button" value="登录方式管理页面"/>
+        <input class="nav_li" type="button" value="app页面"/>
+        <input class="nav_li" type="button" value="仓库页面"/>
+      </div>
+    </div>
+    <div id="body" class="flex_column_center_center">
+      <div class="title_box flex_row_center_center">
+        <div class="title"><%=title%></div>
+      </div>
+      
+      <div id="content" class="flex_column_center_center">
+        <div class="box">
+          <div class="item_line">
+            <div class="item_name">服务器名</div>
+            <input class="item_value" type="text" value=""/>
+          </div>
+          <div class="item_line">
+            <div class="item_name">主机地址</div>
+            <input class="item_value" type="text" value=""/>
+          </div>
+          <div class="item_line">
+            <div class="item_name">登录方式名</div>
+            <select id="login_way" class="item_value">
+              <option value="way1">way1</option>
+              <option value="way2">way2</option>
+            </select>
+          </div>
+        </div>
+        <input id="addServer" type="button" value="添加服务器" />
+        <div class="form_box flex_column_center_center">
+          <div class="form_title">服务器列表</div>
+          <div class="form_con">
+            <div class="form_item">
+              <div class="item server_name">服务器名</div>
+              <div class="item server_href">主机地址</div>
+              <div class="item server_login_way">登录方式名</div>
+              <div class="item server_delete">删除</div>
+            </div>
+            <div class="form_item">
+              <div class="item server_name">name</div>
+              <div class="item server_href">href</div>
+              <div class="item server_login_way">login way</div>
+              <div class="item server_delete">删除</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+
+@media screen and (min-width: 700px){
+    #content .box{
+        position: relative;
+        margin-top: 10px;
+        width: 600px;
+        height: auto;
+        background-color: #dddddd;
+    }
+    .line{
+        margin-top: 5px;
+        width: 600px;
+        height: 40px;
+    }
+    .line_name{
+        float: left;
+        width: 200px;
+        height: 40px;
+        background-color: #cccccc;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .line_value{
+        float: right;
+        width: 380px;
+        height: 35px;
+    }
+    .surebtn{
+        width: 150px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    #content .box{
+        margin-top: 1vw;
+        width: 80vw;
+        height: auto;
+        background-color: #dddddd;
+    }
+
+    
+    
+}

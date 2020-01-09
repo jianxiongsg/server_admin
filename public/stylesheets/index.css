@@ -1,0 +1,142 @@
+
+@media screen and (min-width: 700px){
+
+
+    #content .box{
+        margin-top: 10px;
+        width: 400px;
+        height: auto;
+        background-color: #dddddd;
+    }
+
+    .item_line{
+        width: 400px;
+        height: 30px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .item_name{
+        width: 100px;
+        height: 30px;
+        background-color: #bbbbbb;
+        text-align: center;
+        line-height: 30px;
+    }
+    .item_value{
+        width: 290px;
+        height: 28px;
+    }
+    #addServer{
+        margin-top: 5px;
+        width: 100px;
+        height: 30px;
+        background-color: #cccccc;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .form_box{
+        margin-top: 10px;
+        width: 600px;
+        height: auto;
+    }
+    .form_title{
+        margin-top: 5px;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background-color: #aaaaaa;
+    }
+
+    .form_con{
+        margin-top: 5px;
+        width: 600px;
+        height: auto;
+        background-color: #cccccc;
+    }
+    .form_item{
+        width: 600px;
+        height: 30px;
+    }
+    .item{
+        display: inline-block;
+        width: 145px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;  
+    }
+
+}
+@media screen and (max-width: 700px){
+    #content .box{
+        margin-top: 1vw;
+        width: 60vw;
+        height: auto;
+        background-color: #dddddd;
+    }
+
+    .item_line{
+        width: 60vw;
+        height: 5vw;
+        margin-top: 1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .item_name{
+        width: 20vw;
+        height: 5vw;
+        background-color: #bbbbbb;
+        text-align: center;
+        line-height: 5vw;
+    }
+    .item_value{
+        width: 38vw;
+        height: 4.8vw;
+    }
+    #addServer{
+        margin-top: 1vw;
+        width: 12vw;
+        height: 4vw;
+        background-color: #cccccc;
+        text-align: center;
+        line-height: 4vw;
+        font-size: 1.4vw;
+    }
+    .form_box{
+        margin-top: 1vw;
+        width: 60vw;
+        height: auto;
+    }
+    .form_title{
+        margin-top: 1vw;
+        width: 15vw;
+        height: 4vw;
+        text-align: center;
+        line-height: 4vw;
+        background-color: #aaaaaa;
+    }
+
+    .form_con{
+        margin-top: 1vw;
+        width: 60vw;
+        height: auto;
+        background-color: #cccccc;
+    }
+    .form_item{
+        width: 60vw;
+        height: 4vw;
+    }
+    .item{
+        display: inline-block;
+        width: 14vw;
+        height: 4vw;
+        line-height: 4vw;
+        text-align: center;  
+    }
+}
